@@ -28,7 +28,6 @@ public class Triangle implements Shape {
 
     @Override
     public double getSquare() {
-        System.out.println((a * b) / 2);
         return (a * b) / 2;
     }
 }

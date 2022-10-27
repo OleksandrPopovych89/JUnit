@@ -6,8 +6,8 @@ public class Rectangle implements Shape {
     private double b;
 
     public Rectangle(double a, double b) {
-        this.a = a;
-        this.b = b;
+        this.a = Math.abs(a);
+        this.b = Math.abs(b);
     }
 
     public double getA() {
